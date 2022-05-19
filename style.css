@@ -1,5 +1,17 @@
 body {
-    background: black;
-    color: white;
+    width: 1440px;
+    height: 1845px;
+    background: #FFFFFF;
+    color: #13183F;
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
+
+main img {
+    position: absolute;
+width: 111.17px;
+height: 27.68px;
+left: 165.79px;
+top: 38.75px;
+
+}
+
