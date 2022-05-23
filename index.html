@@ -12,24 +12,24 @@
   <title>Skilled e-learning landing page</title>
 </head>
   <body>
-    <header>
+    <header class="header">
       <img src="./assets/logo-dark.svg" alt="Skilled logo">
       <button class="started-btn-top">Get Started</button>
     </header>
 
-    <picture>
-      <source srcset="./assets/image-hero-mobile@2x.webp" media="(max-width: 600px)">
-      <source srcset="./assets/image-hero-tablet@2x.webp" media="(max-width: 770px)">
-      <source srcset="./assets/image-hero-desktop@2x.webp">
-      <img src="./assets/image-hero-desktop@2x.webp" alt="hero-photo">
-    </picture>
-
-    <section class="main">
-      <h1>Maximize skill, minimize budget</h1>
-      <p>Our modern courses across a range of in-demand skills will give you the 
-    knowledge you need to live the life you want.</p>
-      <button>Get Started</button>
-    </section>
+    <main class="main">
+        <h1>Maximize skill, minimize budget</h1>
+        <p>Our modern courses across a range of in-demand skills will give you the 
+          knowledge you need to live the life you want.</p>
+        <button>Get Started</button>
+        <picture>
+          <source srcset="./assets/image-hero-mobile.webp" media="(max-width: 500px)">
+          <source srcset="./assets/image-hero-tablet.webp" media="(max-width: 1145px)">
+          <source srcset="./assets/image-hero-desktop.webp">
+          <img src="./assets/image-hero-desktop.webp" alt="Hero-image">
+      </picture> 
+    </main>
+    
 
     <section class="courses">
       <div class="grid-container">
@@ -80,9 +80,9 @@
       </div>
     </section>
 
-    <section class="footer">
+    <footer class="footer">
       <img src="./assets/logo-light.svg" alt="logo-light">
       <button>Get Started</button>
-    </section>
+    </footer>
   </body>
 </html>
